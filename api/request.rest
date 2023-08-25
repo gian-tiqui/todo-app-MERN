@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "I'm a 5 star michellin"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/64e8200d865caa24c6899a57
+
+###
+
+PUT http://localhost:3001/todo/complete/64e8203ececf05e2d909c29c
