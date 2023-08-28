@@ -54,6 +54,6 @@ app.get("/todo/complete/:id", async (req, res) => {
     todo.save();
 
     res.json(todo);
-})
+});
 
 app.listen(3001);
